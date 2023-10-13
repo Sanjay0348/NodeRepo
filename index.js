@@ -23,7 +23,7 @@ const server=http.createServer((req,res)=>{
     }
     res.end();
 })
-const PORT=proces.env.PORT || 3500;
+const PORT=process.env.PORT || 3500;
 server.listen(PORT,()=>{
     console.log(`listening on port 3500`);
 })
